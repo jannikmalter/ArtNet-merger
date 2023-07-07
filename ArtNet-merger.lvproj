@@ -13,7 +13,9 @@
 		<Item Name="ArtNet-merger_main.vi" Type="VI" URL="../ArtNet-merger_main.vi"/>
 		<Item Name="build_packet.vi" Type="VI" URL="../build_packet.vi"/>
 		<Item Name="parse_packet.vi" Type="VI" URL="../parse_packet.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="build_reply.vi" Type="VI" URL="../build_reply.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
