@@ -14,6 +14,9 @@
 		<Item Name="build_packet.vi" Type="VI" URL="../build_packet.vi"/>
 		<Item Name="parse_packet.vi" Type="VI" URL="../parse_packet.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+			</Item>
 			<Item Name="build_reply.vi" Type="VI" URL="../build_reply.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
